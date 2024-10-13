@@ -1,6 +1,6 @@
 [project]
 name = "winzy-laptop-battery"
-version = "0.1"
+version = "0.0.1"
 description = "Get laptop battery info and warn if asked"
 readme = "README.md"
 authors = [{name = "Sukhbinder Singh"}]
@@ -11,6 +11,7 @@ classifiers = [
 dependencies = [
     "winzy",
     "psutil"
+    'winsay ; platform_system == "Windows"',
 ]
 
 [project.urls]
