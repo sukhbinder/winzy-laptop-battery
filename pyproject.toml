@@ -10,7 +10,7 @@ classifiers = [
 ]
 dependencies = [
     "winzy",
-    "psutil"
+    "psutil",
     'winsay ; platform_system == "Windows"',
 ]
 
